@@ -1,0 +1,35 @@
+@mixin button($height, $margin-left, $margin-top, $width, $font-size) {
+  height: $height;
+  margin-left: $margin-left;
+  margin-top: $margin-top;
+  width: $width;
+  font-size: $font-size;
+}
+
+@mixin photo-card($margin-top, $margin-left, $width, $height, $flex-direction) {
+  margin-top: $margin-top;
+  width: $width;
+  height: $height;
+  margin-left: $margin-left;
+  display: flex;
+  flex-direction: $flex-direction;
+  -webkit-background-size: 100%;
+}
+
+@mixin main-photo($height, $width: 100%, $background: url(../img/main.png)) {
+  width: $width;
+  background: $background;
+  -webkit-background-size: 100%;
+  height: $height;
+}
+
+@mixin description($height, $width, $margin-left, $p-mt, $p-fs, $p-lh) {
+  height: $height;
+  width: $width;
+  margin-left: $margin-left;
+  p {
+    margin-top: $p-mt;
+    font-size: $p-fs;
+    line-height: $p-lh;
+  }
+}

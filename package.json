@@ -1,0 +1,17 @@
+{
+  "name": "HTML-CSS-ADAP",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "gulp scss:compile",
+    "watch": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
